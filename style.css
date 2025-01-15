@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 * {
     margin: 0;
     padding: 0;
@@ -147,6 +143,10 @@ body {
     cursor: pointer;
 }
 
+.attribution { color: black; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
 @media (max-width:1000px) {
     body {
         background-color: black;
@@ -171,5 +171,7 @@ body {
         width: 100%;
     }
 
-
+    .attribution {
+        margin-top: 1rem;
+    }
 }
