@@ -140,7 +140,7 @@ body {
     cursor: pointer;
 }
 
-.attribution { color: black; font-size: 11px; text-align: center; }
+.attribution {color: black; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
@@ -150,7 +150,7 @@ body {
         position: relative;
         top: 5%;
         height: auto;
-        width: 100%;
+        width: 80%;
     }
     .content .content-result, .summary{
         width: auto;
