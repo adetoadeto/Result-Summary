@@ -48,24 +48,21 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    align-self: center;
-    justify-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 1.2;
+    align-self: center;
     background-image: linear-gradient(360deg, hsl(241, 72%, 46%, 0), hsl(256, 72%, 46%, 1));
     padding: 1rem;
     margin:  1.5rem 0;
-}
-.content-result .score h2 {
     font-size: 3rem; 
-    font-weight: bold;
 }
-.content-result .score p {
+
+.content-result .score span {
     color: rgba(255, 255, 255, 0.637);
     font-size: 14px;
 }
+
 .content-result .narration {
     margin: 0.5rem 0;
     font-size: 1rem;
@@ -73,10 +70,10 @@ body {
 }
 
 .summary {
-    margin: 2rem;
+    margin: 4rem 2rem 2rem 2rem;
     padding-right: 1rem;
     color: black;
-    width: 50%; 
+    width: 50%;
 }
 .summary .summary_heading {
     color:  hsla(224, 30%, 27%, 0.904);
@@ -90,7 +87,7 @@ body {
     display: flex;
     margin-top: 1rem;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 0.7rem;
 }
 .summaries_box .icons {
     display: flex;
@@ -132,12 +129,12 @@ body {
     width: 100%;
     border-radius: 2rem;
     border: none;
-    padding: 0.7rem 0;
-    margin-top: 2rem;
+    padding: 0.7rem;
+    margin: 2rem 0 0 0.5rem;
     background-color: hsl(224, 30%, 27%);
     color: white;
+    font: inherit;
 }
-
 .summary .continue:hover {
     background-image: linear-gradient(hsl(252, 100%, 67%),  hsl(241, 81%, 54%) ) ;
     cursor: pointer;
@@ -148,15 +145,12 @@ body {
 
 
 @media (max-width:1000px) {
-
-    .container{
-        height: 100vh;
-    }
     .content {
         display: block;
+        position: relative;
+        top: 5%;
         height: auto;
-        width: 50%;
-        padding-bottom: 1rem;
+        width: 70%;
     }
     .content .content-result, .summary{
         width: auto;
@@ -164,11 +158,9 @@ body {
     .content .content-result {
         padding: 1.5rem;
     }
-    
-    .summary .continue {
-        width: 100%;
+    .summary {
+        margin-top: 2rem;
     }
-
     .attribution {
         margin-top: 1rem;
     }
