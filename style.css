@@ -150,7 +150,7 @@ body {
         position: relative;
         top: 5%;
         height: auto;
-        width: 80%;
+        width: 100%;
     }
     .content .content-result, .summary{
         width: auto;
@@ -162,6 +162,6 @@ body {
         margin-top: 2rem;
     }
     .attribution {
-        margin-top: 1rem;
+       display: none;
     }
 }
