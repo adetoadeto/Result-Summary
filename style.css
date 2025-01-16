@@ -148,9 +148,7 @@ body {
 
 
 @media (max-width:1000px) {
-    body {
-        background-color: black;
-    }
+ 
     .container{
         height: 100vh;
     }
