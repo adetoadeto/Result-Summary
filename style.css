@@ -145,6 +145,9 @@ body {
 
 
 @media (max-width:1000px) {
+    .container {
+        padding-bottom: 10rem;
+    }
     .content {
         display: block;
         position: relative;
